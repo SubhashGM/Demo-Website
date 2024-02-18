@@ -1,0 +1,177 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  font-family: 'Rubik', sans-serif;
+}
+
+.line {
+  width:10%;
+  height: 5px;
+  background-color: red;
+  margin: 10px auto;
+}
+
+.main-header{
+  background-color: #faf9f9;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#logo
+{
+  justify-content: left;
+  max-width: 100%;
+  height: auto;
+}
+
+nav a{
+  color: #dc2929;
+  text-decoration: none;
+  margin-left: 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover{
+  color: #4e4444;
+}
+
+.hero-section{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero-section img{
+  width: 100%;
+  height: auto;
+}
+
+.overlay{
+  position:absolute;
+  top:25%;
+  left:8%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1%;
+}
+
+.text-container {
+  text-align: left;
+  color: #fff;
+}
+
+.text-container h2 {
+  font-size: 5em;
+  margin-bottom: 10px;
+}
+
+.text-container p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #ece3e3;
+}
+
+.learn-more-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #9e0e0e; /* Blue color for the button */
+  border-radius: 20px; /* Round edges */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.learn-more-btn:hover {
+  background-color: #444a4e; /* Darker shade upon hovering */
+}
+
+.cen_align_text
+{
+  text-align: center;
+  margin: auto 20px;
+  color: #444a4e;
+  font-size: 20px;
+}
+
+.cen_title{
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px;
+  color:#4e4444;
+}
+
+.reg_title{
+  text-align: center;
+}
+
+
+.reg_title{
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.about-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.about-box {
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  margin: 10px;
+  /* Add box-shadow for a subtle lift effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-box:hover {
+  transform: scale(1.05);
+}
+
+.about-box h2{
+  color: #a52424;
+  font-size: 1.5em;
+}
+
+.tiny_line {
+  width: 30px;
+  height: 2px;
+  background-color: red;
+  margin: 10px auto;
+}
+#jobs {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color:#444a4e;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+}
+
+#footer-links {
+  list-style: none;
+}
+
+#footer-links li {
+  display: inline;
+  margin: 16px;
+}
